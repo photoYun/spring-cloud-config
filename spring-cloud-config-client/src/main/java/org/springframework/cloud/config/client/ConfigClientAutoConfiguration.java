@@ -42,7 +42,7 @@ public class ConfigClientAutoConfiguration {
 
 	@Bean
 	public ConfigClientProperties configClientProperties(Environment environment,
-			ApplicationContext context) {
+			ApplicationContext context) {//annotation add.xxxx
 		if (context.getParent() != null
 				&& BeanFactoryUtils.beanNamesForTypeIncludingAncestors(
 						context.getParent(), ConfigClientProperties.class).length > 0) {
