@@ -35,6 +35,7 @@ import org.springframework.core.env.Environment;
  *
  * @author Dave Syer
  * @author Marcos Barbero
+ * 我的测试修改.
  *
  */
 @Configuration
